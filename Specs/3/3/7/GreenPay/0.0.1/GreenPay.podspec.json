@@ -10,7 +10,7 @@
   },
   "authors": "GreenPay",
   "platforms": {
-    "ios": "11.0"
+    "ios": "10.0"
   },
   "source": {
     "git": "https://gitlab.com/gp-sdks/greenpay-ios-sdk-framework-releases.git",

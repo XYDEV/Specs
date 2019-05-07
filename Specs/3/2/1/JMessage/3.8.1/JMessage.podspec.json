@@ -6,7 +6,7 @@
   "homepage": "http://www.jiguang.cn/",
   "license": "MIT",
   "authors": {
-    "jpush": "380108184@qq.com"
+    "JPush": "support@jpush.cn"
   },
   "source": {
     "http": "https://sdkfiledl.jiguang.cn/cocoapods/jmessage/JMessage-iOS-3.8.1.zip"
@@ -37,7 +37,8 @@
   "vendored_frameworks": "JMessage.framework",
   "dependencies": {
     "JCore": [
-      "~> 1.0"
+      ">= 1.0.0",
+      "< 3.0.0"
     ]
   }
 }

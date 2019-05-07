@@ -24,6 +24,9 @@
   "dependencies": {
     "Alamofire": [
 
+    ],
+    "Japx/CodableAlamofire": [
+
     ]
   }
 }

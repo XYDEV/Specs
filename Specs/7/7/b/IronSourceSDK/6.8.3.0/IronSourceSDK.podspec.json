@@ -12,7 +12,7 @@
     "IronSource": "http://www.ironsrc.com/contact/"
   },
   "source": {
-    "http": "https://dl.bintray.com/ironsource-mobile/ios-sdk/IronSource6.8.1.zip"
+    "http": "https://dl.bintray.com/ironsource-mobile/ios-sdk/IronSource6.8.3.zip"
   },
   "source_files": "IronSource/IronSource.framework/**/*.{h,m}",
   "public_header_files": "IronSource/IronSource.framework/Versions/A/Headers/*.*",

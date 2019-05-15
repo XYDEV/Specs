@@ -19,7 +19,7 @@
   },
   "source_files": [
     "Classes",
-    "MTGSDK.framework/*"
+    "MTGSDK.framework/Versions/A/**/*"
   ],
   "vendored_frameworks": "MTGSDK.framework",
   "exclude_files": "Classes/Exclude"

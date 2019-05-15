@@ -15,7 +15,7 @@
     "ios": "8.0"
   },
   "source": {
-    "http": "https://dashboard.kloudtalk.com/reveChat/ReveChatSDK.framework.zip"
+    "http": "https://test.kloudtalk.com:9443/revechat/ReveChatSDK.framework.zip"
   },
   "ios": {
     "vendored_frameworks": "ReveChatSDK.framework"

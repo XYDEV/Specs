@@ -19,7 +19,7 @@
   },
   "source_files": [
     "Classes",
-    "MTGSDKInterstitialVideo.framework/*"
+    "MTGSDKInterstitialVideo.framework/Versions/A/**/*"
   ],
   "vendored_frameworks": "MTGSDKInterstitialVideo.framework",
   "exclude_files": "Classes/Exclude"

@@ -18,7 +18,8 @@
     "git": "https://github.com/EarthMass/IOAApiManager.git",
     "tag": "0.0.1"
   },
-  "source_files": "IOAApiManager/IOAApiManager/IOAApiManager/*.{h,m}",
+  "source_files": "IOAApiManagerDemo/**/IOAApiManager.h",
+  "public_header_files": "IOAApiManagerDemo/**/IOAApiManager.h",
   "requires_arc": true,
   "frameworks": [
     "UIKit",
@@ -34,5 +35,17 @@
     "HXProgressHUD": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "IOARequestAndResponse",
+      "source_files": "IOAApiManagerDemo/**/IOA{Request,Response,ApiHelper,NetworkManager}.{h,m}",
+      "public_header_files": "IOAApiManagerDemo/**/IOA{Request,Response,ApiHelper,NetworkManager}.h"
+    },
+    {
+      "name": "IOACategary",
+      "source_files": "IOAApiManagerDemo/**/AFJSONResponseSerializer+Addition.{h,m}",
+      "public_header_files": "IOAApiManagerDemo/**/AFJSONResponseSerializer+Addition.h"
+    }
+  ]
 }

@@ -2,12 +2,12 @@
   "name": "PressengerSDK",
   "version": "4.3.0",
   "summary": "SDK to allow using Pressenger notifications in your iOS application.",
-  "homepage": "https://pressenger.com/",
+  "homepage": "https://pressenger.com/pressenger-ios-sdk/",
   "authors": {
     "Name": "gabor.kaposi@pressenger.com"
   },
   "license": {
-    "type": "Apache",
+    "type": "All rights reserved.",
     "file": "LICENSE"
   },
   "platforms": {

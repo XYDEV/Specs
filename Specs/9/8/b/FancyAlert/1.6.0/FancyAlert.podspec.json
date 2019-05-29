@@ -17,5 +17,6 @@
   "source_files": "FancyAlert/*.swift",
   "requires_arc": true,
   "resources": "FancyAlertDemo/*.xcassets",
-  "swift_versions": "5.0"
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

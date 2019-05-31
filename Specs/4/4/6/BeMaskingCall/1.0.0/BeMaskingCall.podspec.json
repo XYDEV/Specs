@@ -1,9 +1,9 @@
 {
   "name": "BeMaskingCall",
   "version": "1.0.0",
-  "summary": "This is framework of BeMaskingCall.",
-  "description": "This is FrameWork of BeMaskingCall. This framework, you can call with internet",
-  "homepage": "https://github.com/uncleliz/BeMaskingCall",
+  "summary": "BEMaskingCall for be",
+  "description": "This is frameWork allows you to make a voip call",
+  "homepage": "https://github.com/kennic/BEMaskingCallFramework.git",
   "license": {
     "type": "MIT",
     "text": "The MIT License (MIT) \n Copyright (c) uncleliz <dinhmanhvp@gmail.com> \n Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files"
@@ -11,14 +11,23 @@
   "authors": {
     "uncleliz": "dinhmanhvp@gmail.com"
   },
-  "platforms": {
-    "ios": "9.0"
-  },
   "source": {
-    "git": "https://github.com/uncleliz/BeMaskingCall.git",
+    "git": "https://github.com/kennic/BEMaskingCallFramework.git",
+    "branch": "master",
     "tag": "1.0.0"
   },
-  "source_files": "BeMaskingCall",
-  "swift_versions": "4.0",
-  "swift_version": "4.0"
+  "ios": {
+    "vendored_frameworks": "BeMaskingCall.framework",
+    "dependencies": {
+      "AFNetworking": [
+
+      ],
+      "Stringee": [
+
+      ]
+    }
+  },
+  "platforms": {
+    "ios": "10.0"
+  }
 }

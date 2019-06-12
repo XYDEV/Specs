@@ -9,7 +9,7 @@
   "authors": {
     "Ghanshyam Mansata": "ghanshyam.mansata@inscripts.com"
   },
-  "summary": "End to end encryption extension for Comet Chat Pro SDK.",
+  "summary": "Push Notification extension for Comet Chat Pro SDK.",
   "source": {
     "git": "https://github.com/cometchat-pro-extensions/ios-push-notification-extension.git",
     "tag": "1.0.0"
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "CometChatPro": [
-      "~> 1.4.0"
+
     ]
   },
   "swift_version": "5.0"

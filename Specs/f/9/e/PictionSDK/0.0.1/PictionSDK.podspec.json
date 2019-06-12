@@ -8,7 +8,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "Junghoon Seo": "jh.seo@battleent.com"
+    "Piction Network": "jh.seo@battleent.com"
   },
   "platforms": {
     "ios": "9.0"
@@ -17,15 +17,36 @@
     "git": "https://github.com/piction-protocol/piction-sdk-ios.git",
     "tag": "0.0.1"
   },
-  "source_files": "Sources/**/*.swift",
-  "dependencies": {
-    "Moya-ModelMapper": [
-      "~> 9.0.0"
-    ],
-    "KeychainAccess": [
-      "~> 3.2.0"
-    ]
-  },
   "swift_versions": "4.2",
-  "swift_version": "4.2"
+  "swift_version": "4.2",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Sources/PictionSDK/**/*.swift",
+      "dependencies": {
+        "Moya-ModelMapper": [
+          "~> 9.0.0"
+        ],
+        "KeychainAccess": [
+          "~> 3.2.0"
+        ]
+      },
+      "frameworks": "Foundation"
+    },
+    {
+      "name": "RxSwift",
+      "source_files": "Sources/RxPictionSDK/**/*.swift",
+      "dependencies": {
+        "Moya-ModelMapper/RxSwift": [
+          "~> 9.0.0"
+        ],
+        "PictionSDK/Core": [
+
+        ],
+        "RxSwift": [
+
+        ]
+      }
+    }
+  ]
 }

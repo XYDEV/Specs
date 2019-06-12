@@ -8,7 +8,7 @@
     "ios": "9.0"
   },
   "summary": "Verizon Ads adapter used for mediation with the AppLovin MAX SDK",
-  "homepage": "https://www.applovin.com/",
+  "homepage": "https://dash.applovin.com/documentation/mediation/ios/mediation-adapters",
   "license": {
     "type": "Commercial License",
     "text": "\nCopyright 2019 AppLovin Corp. All rights reserved.\n\nThe AppLovin MAX SDK is available under a commercial license (https://www.applovin.com/eula).\n\n"
@@ -16,7 +16,7 @@
   "source": {
     "http": "https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationVerizonAdsAdapter-1.1.2.0.zip",
     "type": "zip",
-    "sha256": "d0815de2beadd3e2701ea06cd0a0d2d7a7352e55fcdb44535066bb7542c127e3"
+    "sha256": "f0c5a185425cf90337dc789906eedd2bd56363914a42bf6e30e4fc5faf4233af"
   },
   "vendored_frameworks": "AppLovinMediationVerizonAdsAdapter-1.1.2.0/AppLovinMediationVerizonAdsAdapter.framework",
   "dependencies": {

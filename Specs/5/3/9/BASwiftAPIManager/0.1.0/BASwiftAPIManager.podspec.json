@@ -2,7 +2,7 @@
   "name": "BASwiftAPIManager",
   "version": "0.1.0",
   "summary": "SwiftAPIManager",
-  "homepage": "https://github.com/brkakkaya/SwiftAPIManager",
+  "homepage": "https://gitlab.com/brkakkaya/swift-api-manager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -11,7 +11,7 @@
     "Burak AKKAYA": "brk.akkaya@gmail.com"
   },
   "source": {
-    "git": "https://github.com/brkakkaya/SwiftAPIManager.git",
+    "git": "https://gitlab.com/brkakkaya/swift-api-manager.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -25,7 +25,7 @@
   "source_files": "APIManager/**/*.swift",
   "dependencies": {
     "BASwiftExtensions": [
-      "~> 0.1.3"
+      "~> 0.1.0"
     ]
   }
 }

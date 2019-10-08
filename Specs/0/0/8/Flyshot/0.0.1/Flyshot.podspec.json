@@ -1,13 +1,10 @@
 {
   "name": "Flyshot",
   "version": "0.0.1",
-  "summary": "Flyshot description should be here",
-  "description": "Description should be there",
-  "homepage": "http://EXAMPLE/Flyshot",
+  "summary": "Official Flyshot SDK to access Flyshot Platform's features.",
+  "homepage": "https://bitbucket.org/flyshot/ios-sdk",
   "license": "MIT",
-  "authors": {
-    "artsiom.likhatch@altoros.com": ""
-  },
+  "authors": "Flyshot",
   "platforms": {
     "ios": "10.0"
   },
@@ -20,7 +17,7 @@
   },
   "requires_arc": true,
   "swift_versions": "5.0",
-  "vendored_frameworks": "Flyshot/Flyshot.framework",
+  "vendored_frameworks": "Flyshot.framework",
   "dependencies": {
     "Alamofire": [
       "~> 4.8.2"

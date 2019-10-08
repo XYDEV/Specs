@@ -18,7 +18,12 @@
   "platforms": {
     "ios": "8.0"
   },
+  "swift_versions": [
+    5.0,
+    "5.0"
+  ],
   "default_subspecs": "Default",
+  "swift_version": "5.0",
   "subspecs": [
     {
       "name": "Default",

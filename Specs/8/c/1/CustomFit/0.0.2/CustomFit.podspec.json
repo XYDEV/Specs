@@ -9,16 +9,25 @@
     "file": "LICENSE"
   },
   "authors": {
-    "rajtharan": "tharanit99@gmail.com"
+    "rajtharan": "rajtharan@squareoffnow.com"
   },
   "platforms": {
-    "ios": "12.2"
+    "ios": "9.0"
   },
   "swift_versions": "5.0",
   "source": {
     "git": "https://github.com/rajtharan-g/CustomFit.git",
     "tag": "0.0.2"
   },
-  "source_files": "CustomFit/**/*.{h,m,swift}",
+  "source_files": "CustomFit/*.swift",
+  "static_framework": true,
+  "dependencies": {
+    "Firebase/Messaging": [
+
+    ],
+    "Alamofire": [
+
+    ]
+  },
   "swift_version": "5.0"
 }
